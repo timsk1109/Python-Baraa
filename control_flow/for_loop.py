@@ -1,4 +1,4 @@
-# for loop is used to iterate items in a list.
+'''# for loop is used to iterate items in a list.
 fruits = ["mango", "orange", "paw-paw", "banana", "carrots"]
 
 for i in fruits:
@@ -19,3 +19,10 @@ for list in lists:
     total += list
     print("current total is:", str(total))
 print(total)
+'''
+
+#challenge- print the 7 times table form 1 - 10.
+total = 7
+for seven in range(1, 11):
+    print(f"7 x {seven} = ", total * seven)
+#print(7*2)
